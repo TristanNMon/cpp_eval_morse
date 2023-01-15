@@ -1,0 +1,29 @@
+Chère utilisateur,
+
+Voici mon code d'encodage et de décodage en morse:
+
+Le code possède plusieurs fonctionalités:
+    1/ decodage d'un code morse 
+    2/ codage d'un texte en français en morse puis en un fichier audio
+    3/ décodage d'un fichier audio wav en code morse puis en français 
+
+Je vais vous expliquer comment on utilise le code.
+
+En entrée soit on introduit l'adresse du fichier wav à décoder soit on écrit un message en morse ou en français
+
+L'algorithme demande ensuite à l'utilisateur si il a déposé un fichier wav ou écrit un texte 
+
+Remarque:   - lorsque l'on dépose  un fichier wav il faut faire attention qu'il n'y ai pas d'apostrophe au début et à la fin de l'adresse 
+        ex: ./morse.out /tristan/sos.wav et pas ./morse.out '/tristan/sos.wav'
+
+            - si l'adresse est à ralonge et passe par des noeuds d'abres constitués de plusieurs mots il faut peut-être rajouté un "\" entre les mots 
+        ex: ./morse.out /tristan/mines\ paris/sos.wav et pas ./morse.out /tristan/mines paris/sos.wav
+
+            - si l'on insère un texte en morse il faut ajouter un espace entre chaque lettre (ensemble de . et -) et un " / " entre chaue mot
+        ex: ./morse.out ... --- ... / ... --- ...           pour sos sos 
+
+J'espère que le code est compréhensible et bonne lecture, 
+
+Tristan montalbetti
+
+P.S Si vous avez une question n'hésitez pas à envoyer un mail à tristan.montalbetti@etu.minesparis.psl.eu
